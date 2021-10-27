@@ -16,7 +16,7 @@ jobs:
   Auto-Attendance:
 
     runs-on: ubuntu-latest
-    if: github.event.repository.owner.id == github.event.sender.id
+    if: github.event.repository.owner.id == https://github.com/Urazc1/fuckTodayStudy.git
 
     steps:
     - name: checkout actions
